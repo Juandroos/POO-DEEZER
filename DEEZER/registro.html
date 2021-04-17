@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Juan A. Hernandez">
+    <meta name="generator" content="Deezer 0.80.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="frontend/img/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="frontend/img/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="frontend/img/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <title> Registrarse | Crear una cuenta </title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="frontend/css/estilos.css"> 
+    <link rel="stylesheet" href="frontend/css/registro.css"> 
+    <script src="https://kit.fontawesome.com/018de60a6f.js" crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+    
+<header class="site-header sticky-top py-1 px-5 ">
+ 
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="frontend/img/deezer-logo.png" alt="" class="logo">
+      </a>
+      <button class="navbar-toggler pl-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <div class="nav-menu">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item m-2 px-2">
+            <a class="nav-link fs-3 nav-titulo" href="#">Descargar</a>
+          </li>
+          <li class="nav-item m-2 px-2">
+            <a class="nav-link fs-3 nav-titulo" href="#">Planes</a>
+          </li>
+          <li class="nav-item m-2 ">
+            <a href="login.html"><button type="button" class="btn-borde btn-lg">Iniciar Sesion</button></a>
+          </li>
+          <li class="nav-item m-2">
+            <button type="button" class="btn-relleno btn-lg">Registrarse</button>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </nav>
+  
+
+</header>
+
+<main class="main-formato container-fluid m-0 p-0"></main>
+<!-- DIV 1 -->
+  <div class="d-md-flex flex-md-equal w-100  p-0 m-0">
+    <div class="row">
+        <div class="col-8 col-sm-12 col-md-6 text-center p-5" style="background-color: #F0F0F0;">
+            <h1 class="m-5">¿Listo para <br>suscribirte?</h1>
+            <div>
+                <button class="btn-border bg-fb btn m-2"><i class="fab fa-facebook"></i> Facebook</button>
+                <button class="btn-border bg-google btn m-2"><img src="frontend/img/login/google-logo.png" alt="" style="width: 14px;"></i> Google</button>
+                <button class="btn-border bg-apple btn m-2"><i class="fab fa-apple"></i> Apple</button>
+              </div>
+            
+                <form id="formulario" action="enviado.php" method="post" class="text-center p-2">
+                <input type="email" class="input-registro m-2 p-4" id="inputCorreo" placeholder="Correo electrónico">
+                <input type="text" class="input-registro m-2 p-4" id="inputNombre" placeholder="Nombre de usuario">
+                <div class="form-group">
+                        <input type="password" name="password" class="password1 input-registro m-2 p-4" placeholder="Contraseña" />
+                        <i class="fa fa-fw fa-eye password-icon show-password input-registro"></i>
+                </div>
+               
+
+                
+                <button class="btn btn-registro m-2 p-2">Registrarse</button><br>
+                <span>Al hacer clic en "Regístrate", aceptas las</span>
+                <br><a href="" class="enlace-registro m-5 bold">¿Olvidaste tu contraseña?</a>
+                <p class="fw-normal">¿Todavía no tienes una cuenta Deezer? <a href="" class="bold enlace-registro">Registrate</a></p>
+            </form>
+           
+            
+        </div>
+        <div class="col-sm-4 col-md-6 div-img-registro container-fluid" >
+            <img src="frontend/img/registro/enjoy.jpg" alt="" class="img-registro">
+        </div>
+    </div>
+    
+  </div>
+<!-- DIV 2 -->
+
+
+ 
+</main>
+
+<footer class="container-fluid bg-negro text-gris m-lg-auto">
+  <div class="text-center mb-4">
+    <img src="frontend/img/landing_page/app-store.svg"  alt="">
+    <img src="frontend/img/landing_page/google-store.png" style="width: 150px;" alt="" ></div>
+  <div class="row">
+    
+    <div class="col-6 col-md">
+      <h6>DEEZER</h6>
+      <ul class="list-unstyled text-small" id="deezer"></ul>
+    </div>
+    <div class="col-6 col-md">
+      <h6>EXPLORAR</h6>
+      <ul class="list-unstyled text-small" id="explorar"> </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h6>¿QUIÉNES SOMOS?</h6>
+      <ul class="list-unstyled text-small" id="quienesSomos"></ul>
+    </div>
+    <div class="col-6 col-md">
+      <h6>LEGAL</h6>
+      <ul class="list-unstyled text-small" id="legal"></ul>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row text-white fs-4">
+      <div class="col-sm text-center ">
+        <i class="fab fa-facebook-f m-2"></i>
+        <i class="fab fa-instagram m-2"></i>
+        <i class="fab fa-twitter m-2"></i>
+        <i class="fab fa-youtube m-2"></i>
+      </div>
+      <div class="col-sm text-center">
+       <img src="frontend/img/deezer-logo-blanco.png" alt="" style="width: 150px;">
+      </div>
+      <div class="col-sm text-center fs-6">
+        &copy; 2021 DeezerEspañol (latam)
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>    
+<script src="frontend/js/general.js"></script>
+<script src="frontend/js/registro.js"></script>
+</body>
+</html>
