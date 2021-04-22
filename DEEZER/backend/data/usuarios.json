@@ -1,0 +1,32 @@
+[
+  {
+    "nombre": "Juan",
+    "apellido": "Hernandez",
+    "correo": "juan1@gmail.com",
+    "password": "2wWasdfghj",
+    "fechaNacimiento": "12-12-2000",
+    "identidad": "Masculino",
+    "rol": 1,
+    "playlist": "Beyonce"
+  },
+  {
+    "nombre": "Juan",
+    "apellido": "Hernandez",
+    "correo": "juan1@gmail.com",
+    "password": "2wWasdfghj",
+    "fechaNacimiento": "12-12-2000",
+    "identidad": "Masculino",
+    "rol": 1,
+    "playlist": "Beyonce"
+  },
+  {
+    "nombre": "Jean",
+    "apellido": "Hernandez",
+    "correo": "Juan@gmail.com",
+    "password": "2Wwertyi",
+    "fechaNacimiento": "2001-12-21",
+    "identidad": "Hombre",
+    "rol": 1,
+    "playlist": "DEEZER"
+  }
+]

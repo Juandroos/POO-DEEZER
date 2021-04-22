@@ -17,17 +17,33 @@ color: white!important;
 }
 
 /* INICIO SESION INPUT */
+.select-registro{
+    border: none !important; 
+    margin-left: 160px!important;
+}
 .input-registro{
     width: 390px!important;
     height: 50px!important;
-    color:rgb(107, 107, 107) ;
     border: 0;
+}
+.enlace-registro-rosa{
+    color: rgb(239, 84, 102);
+}
+.enlace-registro-rosa:hover{
+    color: rgb(239, 84, 102);
+    text-decoration: none;
+}
+.h1-registro{
+    margin-top: 40px;
+}
+.span-enlace{
+    margin-bottom: 30px;
 }
 .btn-registro{
     background-color: rgb(239, 84, 102);
-    width: 330px;
+    width: 230px;
     border-radius: 25px;
-    margin-top: 40px!important;
+    margin-top: 5px!important;
     color: white;
 }
 .btn-registro:hover{
