@@ -77,3 +77,19 @@ color: white!important;
     margin: -45px -50px 0 0;
     cursor: pointer;
 }
+.info-text-rojo{
+    color: rgb(168, 65, 65);
+    margin: 0px;
+    padding: 0px;
+}
+.info-text-rojo:hover{
+    color: crimson;
+}
+.info-text-verde{
+    color: rgb(65, 168, 91);
+    margin: 0px;
+    padding: 0px;
+}
+.info-text-verde:hover{
+    color: rgb(93, 220, 20);
+}

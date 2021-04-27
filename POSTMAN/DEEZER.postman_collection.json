@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "b29add04-1b56-4634-9946-8e08b4752ed9",
+		"name": "DEEZER",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "USUARIOS",
+			"item": [
+				{
+					"name": "guardar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/DEEZER/backend/api/usuarios.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"DEEZER",
+								"backend",
+								"api",
+								"usuarios.php"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "GENEROS",
+			"item": [
+				{
+					"name": "Obtener Generos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/DEEZER/backend/api/generos.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"DEEZER",
+								"backend",
+								"api",
+								"generos.php"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

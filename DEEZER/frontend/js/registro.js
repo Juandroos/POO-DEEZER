@@ -50,7 +50,10 @@ function verde(id) {document.getElementById(id).style.backgroundColor = "rgb(193
 function rojo(id) {document.getElementById(id).style.backgroundColor = "rgb(255, 193, 193)"}
 
 function guardarUsuario(rol) {
-    'document.GH'
+    if (document.getElementById('nombre').value!='' &&document.getElementById('apellido').value!='' && document.getElementById('password').value!='' && document.getElementById('correo').value!=''){
+    document.getElementById('btnGuardarAdministrador').disabled = true;
+    document.getElementById('info').classList.add('info-text-verde');
+    document.getElementById('info').innerHTML ="Registro Exitoso!";
     let usuario ={
         nombre:document.getElementById('nombre').value,
         apellido:document.getElementById('apellido').value,
@@ -72,7 +75,28 @@ function guardarUsuario(rol) {
     }).catch(error=>{
         console.error(error);
     });
+}else{
+    console.log('HOLAA');
+    document.getElementById('info').classList.add('info-text-rojo');
+    document.getElementById('info').innerHTML ="**Rellene los campos**";
 }
+}
+
+function guardarAdministrador() {
+    console.log('PUTONNNN');
+    window.location = "https://nueva-pagina.com"
+    window.location.replace("index.html");
+    redireccionar();
+
+    console.log('id');
+}
+
+function redireccionar(){
+    console.log('PUTAAA');
+    window.location.replace("../index.html");
+}
+
+
 
 
 
