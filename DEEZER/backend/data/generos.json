@@ -6,9 +6,144 @@
         "cancionesGenero":
         [
             {
-                "idArtista":"",
-                "idCancionEjemplo":"",
-                "urlArtista":""
+                "idArtista":"0",
+                "nombreArtista":"Justin Bieber",
+                "urlArtista":"(0)"
+            },
+            {
+                "idArtista":"1",
+                "nombreArtista":"Dua Lipa",
+                "urlArtista":"(1)"
+            },
+            {
+                "idArtista":"2",
+                "nombreArtista":"Ariana Grande",
+                "urlArtista":"(2)"
+            },
+            {
+                "idArtista":"3",
+                "nombreArtista":"Taylor Swift",
+                "urlArtista":"(3)"
+            },
+            {
+                "idArtista":"4",
+                "nombreArtista":"Bruna Mars",
+                "urlArtista":"(4)"
+            },
+            {
+                "idArtista":"5",
+                "nombreArtista":"Ricardo Arjona",
+                "urlArtista":"(5)"
+            },
+            {
+                "idArtista":"6",
+                "nombreArtista":"Camilo",
+                "urlArtista":"(6)"
+            },
+            {
+                "idArtista":"7",
+                "nombreArtista":"Luis Miguel",
+                "urlArtista":"(7)"
+            },
+            {
+                "idArtista":"8",
+                "nombreArtista":"Lil Nas X",
+                "urlArtista":"(8)"
+            },
+            {
+                "idArtista":"9",
+                "nombreArtista":"Heroes del Silencio",
+                "urlArtista":"(9)"
+            },
+            {
+                "idArtista":"10",
+                "nombreArtista":"Harry Styles",
+                "urlArtista":"(10)"
+            },
+            {
+                "idArtista":"11",
+                "nombreArtista":"One Direction",
+                "urlArtista":"(11)"
+            },
+            {
+                "idArtista":"12",
+                "nombreArtista":"Morat",
+                "urlArtista":"(12)"
+            },
+            {
+                "idArtista":"13",
+                "nombreArtista":"Sia",
+                "urlArtista":"(13)"
+            },
+            {
+                "idArtista":"14",
+                "nombreArtista":"Black Eyed Peas",
+                "urlArtista":"(14)"
+            },
+            {
+                "idArtista":"15",
+                "nombreArtista":"Reik",
+                "urlArtista":"(15)"
+            },
+            {
+                "idArtista":"16",
+                "nombreArtista":"Piso 21",
+                "urlArtista":"(16)"
+            },
+            {
+                "idArtista":"17",
+                "nombreArtista":"Lady Gaga",
+                "urlArtista":"(17)"
+            },
+            {
+                "idArtista":"18",
+                "nombreArtista":"Maroon 5",
+                "urlArtista":"(18)"
+            },
+            {
+                "idArtista":"19",
+                "nombreArtista":"Ed Sheeran",
+                "urlArtista":"(19)"
+            },
+            {
+                "idArtista":"20",
+                "nombreArtista":"Adele",
+                "urlArtista":"(20)"
+            },
+            {
+                "idArtista":"21",
+                "nombreArtista":"Bunbury",
+                "urlArtista":"(21)"
+            },
+            {
+                "idArtista":"22",
+                "nombreArtista":"Selena Gomez",
+                "urlArtista":"(22)"
+            },
+            {
+                "idArtista":"23",
+                "nombreArtista":"Miley Cyrus",
+                "urlArtista":"(23)"
+            },
+            {
+                "idArtista":"24",
+                "nombreArtista":"Rihanna",
+                "urlArtista":"(24)"
+            },
+            {
+                "idArtista":"25",
+                "nombreArtista":"Joji",
+                "urlArtista":"(25)"
+            },
+            {
+                "idArtista":"26",
+                "nombreArtista":"Michael Jackson",
+                "urlArtista":"(26)"
+            },
+            {
+                "idArtista":"27",
+                "nombreArtista":"Sam Smith",
+                "urlArtista":"(27)"
             }
         ]
     },
@@ -19,49 +154,514 @@
         "cancionesGenero":
         [
             {
-                "idArtista":"",
-                "idCancionEjemplo":"",
-                "urlArtista":""
+                "idArtista":"0",
+                "nombreArtista":"Bad Bunny",
+                "urlArtista":"(0)"
+            },
+            {
+                "idArtista":"1",
+                "nombreArtista":"Myke Towers",
+                "urlArtista":"(1)"
+            },
+            {
+                "idArtista":"2",
+                "nombreArtista":"J'Balvin",
+                "urlArtista":"(2)"
+            },
+            {
+                "idArtista":"3",
+                "nombreArtista":"Anuel Aa",
+                "urlArtista":"(3)"
+            },
+            {
+                "idArtista":"4",
+                "nombreArtista":"Christian Nodal",
+                "urlArtista":"(4)"
+            },
+            {
+                "idArtista":"5",
+                "nombreArtista":"Daddy Yankee",
+                "urlArtista":"(5)"
+            },
+            {
+                "idArtista":"6",
+                "nombreArtista":"Karol G",
+                "urlArtista":"(6)"
+            },
+            {
+                "idArtista":"7",
+                "nombreArtista":"Ozuna",
+                "urlArtista":"(7)"
+            },
+            {
+                "idArtista":"8",
+                "nombreArtista":"Sech",
+                "urlArtista":"(8)"
+            },
+            {
+                "idArtista":"9",
+                "nombreArtista":"Arcangel",
+                "urlArtista":"(9)"
+            },
+            {
+                "idArtista":"10",
+                "nombreArtista":"Romeo Santos",
+                "urlArtista":"(10)"
+            },
+            {
+                "idArtista":"11",
+                "nombreArtista":"Don Omar",
+                "urlArtista":"(11)"
+            },
+            {
+                "idArtista":"12",
+                "nombreArtista":"Aventura",
+                "urlArtista":"(12)"
+            },
+            {
+                "idArtista":"13",
+                "nombreArtista":"Banda MS de Sergio Lizarraga",
+                "urlArtista":"(13)"
+            },
+            {
+                "idArtista":"14",
+                "nombreArtista":"Sebastian Yatra",
+                "urlArtista":"(14)"
+            },
+            {
+                "idArtista":"15",
+                "nombreArtista":"DUKI",
+                "urlArtista":"(15)"
+            },
+            {
+                "idArtista":"16",
+                "nombreArtista":"Jhay Cortez",
+                "urlArtista":"(16)"
+            },
+            {
+                "idArtista":"17",
+                "nombreArtista":"Los Temerarios",
+                "urlArtista":"(17)"
+            },
+            {
+                "idArtista":"18",
+                "nombreArtista":"Jay Wheeler",
+                "urlArtista":"(18)"
+            },
+            {
+                "idArtista":"19",
+                "nombreArtista":"Los Legendarios",
+                "urlArtista":"(19)"
+            },
+            {
+                "idArtista":"20",
+                "nombreArtista":"Eladio Carrion",
+                "urlArtista":"(20)"
+            },
+            {
+                "idArtista":"21",
+                "nombreArtista":"Marco Antonio Solis",
+                "urlArtista":"(21)"
+            },
+            {
+                "idArtista":"22",
+                "nombreArtista":"El Alfa",
+                "urlArtista":"(22)"
+            },
+            {
+                "idArtista":"23",
+                "nombreArtista":"Grupo Firme",
+                "urlArtista":"(23)"
+            },
+            {
+                "idArtista":"24",
+                "nombreArtista":"Bizarrap",
+                "urlArtista":"(24)"
+            },
+            {
+                "idArtista":"25",
+                "nombreArtista":"Los Tigres del Norte",
+                "urlArtista":"(25)"
+            },
+            {
+                "idArtista":"26",
+                "nombreArtista":"Los Tucanes de Tijuana",
+                "urlArtista":"(26)"
+            },
+            {
+                "idArtista":"27",
+                "nombreArtista":"Jowel & Randy",
+                "urlArtista":"(27)"
             }
         ]
     },
     {
-        "idGenero":"3",
+        "idGenero":"2",
         "nombreGenero":"RAP / HIP HOP",
         "urlGenero":"rap.png",
         "cancionesGenero":
         [
             {
-                "idArtista":"",
-                "idCancionEjemplo":"",
-                "urlArtista":""
+                "idArtista":"0",
+                "nombreArtista":"Rauw Alejandro",
+                "urlArtista":"(0)"
+            },
+            {
+                "idArtista":"1",
+                "nombreArtista":"Gera MX",
+                "urlArtista":"(1)"
+            },
+            {
+                "idArtista":"2",
+                "nombreArtista":"Maluma",
+                "urlArtista":"(2)"
+            },
+            {
+                "idArtista":"3",
+                "nombreArtista":"Farruko",
+                "urlArtista":"(3)"
+            },
+            {
+                "idArtista":"4",
+                "nombreArtista":"Drake",
+                "urlArtista":"(4)"
+            },
+            {
+                "idArtista":"5",
+                "nombreArtista":"Nicky Jam",
+                "urlArtista":"(5)"
+            },
+            {
+                "idArtista":"6",
+                "nombreArtista":"Paulo Alondra",
+                "urlArtista":"(6)"
+            },
+            {
+                "idArtista":"7",
+                "nombreArtista":"Manuel Turizo",
+                "urlArtista":"(7)"
+            },
+            {
+                "idArtista":"8",
+                "nombreArtista":"Post Malone",
+                "urlArtista":"(8)"
+            },
+            {
+                "idArtista":"9",
+                "nombreArtista":"Lil Peep",
+                "urlArtista":"(9)"
+            },
+            {
+                "idArtista":"10",
+                "nombreArtista":"Canserbero",
+                "urlArtista":"(10)"
+            },
+            {
+                "idArtista":"11",
+                "nombreArtista":"Wisin & Yandel",
+                "urlArtista":"(11)"
+            },
+            {
+                "idArtista":"12",
+                "nombreArtista":"Eminem",
+                "urlArtista":"(12)"
+            },
+            {
+                "idArtista":"13",
+                "nombreArtista":"XXX Tentacion",
+                "urlArtista":"(13)"
+            },
+            {
+                "idArtista":"14",
+                "nombreArtista":"Dalex",
+                "urlArtista":"(14)"
+            },
+            {
+                "idArtista":"15",
+                "nombreArtista":"Cartel de Santa",
+                "urlArtista":"(15)"
+            },
+            {
+                "idArtista":"16",
+                "nombreArtista":"C.R.O",
+                "urlArtista":"(16)"
+            },
+            {
+                "idArtista":"17",
+                "nombreArtista":"Gorillaz",
+                "urlArtista":"(17)"
+            },
+            {
+                "idArtista":"18",
+                "nombreArtista":"Rels B",
+                "urlArtista":"(18)"
+            },
+            {
+                "idArtista":"19",
+                "nombreArtista":"Calle 13",
+                "urlArtista":"(19)"
+            },
+            {
+                "idArtista":"20",
+                "nombreArtista":"$uicideboy$",
+                "urlArtista":"(20)"
+            },
+            {
+                "idArtista":"21",
+                "nombreArtista":"Kidd Keo",
+                "urlArtista":"(21)"
+            },
+            {
+                "idArtista":"22",
+                "nombreArtista":"Wos",
+                "urlArtista":"(22)"
+            },
+            {
+                "idArtista":"23",
+                "nombreArtista":"Cardi B",
+                "urlArtista":"(23)"
+            },
+            {
+                "idArtista":"24",
+                "nombreArtista":"Travis Scott",
+                "urlArtista":"(24)"
+            },
+            {
+                "idArtista":"25",
+                "nombreArtista":"Juice Wrld",
+                "urlArtista":"(25)"
+            },
+            {
+                "idArtista":"26",
+                "nombreArtista":"Lunay",
+                "urlArtista":"(26)"
+            },
+            {
+                "idArtista":"27",
+                "nombreArtista":"Rochy RD",
+                "urlArtista":"(27)"
             }
         ]
     },
     {
-        "idGenero":"4",
+        "idGenero":"3",
         "nombreGenero":"ROCK",
         "urlGenero":"rock.png",
         "cancionesGenero":
         [
             {
-                "idArtista":"",
-                "idCancionEjemplo":"",
-                "urlArtista":""
+                "idArtista":"0",
+                "nombreArtista":"Coldpay",
+                "urlArtista":"(0)"
+            },
+            {
+                "idArtista":"1",
+                "nombreArtista":"Queen",
+                "urlArtista":"(1)"
+            },
+            {
+                "idArtista":"2",
+                "nombreArtista":"Gun N' Roses",
+                "urlArtista":"(2)"
+            },
+            {
+                "idArtista":"3",
+                "nombreArtista":"Mago de OZ",
+                "urlArtista":"(3)"
+            },
+            {
+                "idArtista":"4",
+                "nombreArtista":"Brig Me the Horizon",
+                "urlArtista":"(4)"
+            },
+            {
+                "idArtista":"5",
+                "nombreArtista":"AC/DC",
+                "urlArtista":"(5)"
+            },
+            {
+                "idArtista":"6",
+                "nombreArtista":"The Beatles",
+                "urlArtista":"(6)"
+            },
+            {
+                "idArtista":"7",
+                "nombreArtista":"Nirvana",
+                "urlArtista":"(7)"
+            },
+            {
+                "idArtista":"8",
+                "nombreArtista":"Marilyn Manson",
+                "urlArtista":"(8)"
+            },
+            {
+                "idArtista":"9",
+                "nombreArtista":"Enanitos Verdes",
+                "urlArtista":"(9)"
+            },
+            {
+                "idArtista":"10",
+                "nombreArtista":"Pink Floyd",
+                "urlArtista":"(10)"
+            },
+            {
+                "idArtista":"11",
+                "nombreArtista":"El Cuarteto de Nos",
+                "urlArtista":"(11)"
+            },
+            {
+                "idArtista":"12",
+                "nombreArtista":"Bon Jovi",
+                "urlArtista":"(12)"
+            },
+            {
+                "idArtista":"13",
+                "nombreArtista":"System of a Down",
+                "urlArtista":"(13)"
+            },
+            {
+                "idArtista":"14",
+                "nombreArtista":"Skillet",
+                "urlArtista":"(14)"
+            },
+            {
+                "idArtista":"15",
+                "nombreArtista":"Aerosmith",
+                "urlArtista":"(15)"
+            },
+            {
+                "idArtista":"16",
+                "nombreArtista":"Avenged Sevenfold",
+                "urlArtista":"(16)"
+            },
+            {
+                "idArtista":"17",
+                "nombreArtista":"Led Zepplin",
+                "urlArtista":"(17)"
+            },
+            {
+                "idArtista":"18",
+                "nombreArtista":"The Doors",
+                "urlArtista":"(18)"
+            },
+            {
+                "idArtista":"19",
+                "nombreArtista":"Los Prisioneros",
+                "urlArtista":"(19)"
+            },
+            {
+                "idArtista":"20",
+                "nombreArtista":"Jose Madero",
+                "urlArtista":"(20)"
+            },
+            {
+                "idArtista":"21",
+                "nombreArtista":"Scorpions",
+                "urlArtista":"(21)"
+            },
+            {
+                "idArtista":"22",
+                "nombreArtista":"En Espiritu Y En Verdad",
+                "urlArtista":"(22)"
+            },
+            {
+                "idArtista":"23",
+                "nombreArtista":"Creedence Clearwater Revival",
+                "urlArtista":"(23)"
+            },
+            {
+                "idArtista":"24",
+                "nombreArtista":"Nazareth",
+                "urlArtista":"(24)"
+            },
+            {
+                "idArtista":"25",
+                "nombreArtista":"KISS",
+                "urlArtista":"(25)"
+            },
+            {
+                "idArtista":"26",
+                "nombreArtista":"KoRn",
+                "urlArtista":"(26)"
+            },
+            {
+                "idArtista":"27",
+                "nombreArtista":"Sleepin At Last",
+                "urlArtista":"(27)"
             }
         ]
     },
     {
-        "idGenero":"5",
+        "idGenero":"4",
         "nombreGenero":"REGGAETÓN",
         "urlGenero":"pop.png",
         "cancionesGenero":
         [
-            {
-                "idArtista":"",
-                "idCancionEjemplo":"",
-                "urlArtista":""
-            }
+    {
+        "idArtista":"0",
+        "nombreArtista":"Nio Garcia",
+        "urlArtista":"(0)"
+    },
+    {
+        "idArtista":"1",
+        "nombreArtista":"Alex Rose",
+        "urlArtista":"(1)"
+    },
+    {
+        "idArtista":"2",
+        "nombreArtista":"Hector El Father",
+        "urlArtista":"(2)"
+    },
+    {
+        "idArtista":"3",
+        "nombreArtista":"Almighty",
+        "urlArtista":"(3)"
+    },
+    {
+        "idArtista":"4",
+        "nombreArtista":"Nejo & Dalmata",
+        "urlArtista":"(4)"
+    },
+    {
+        "idArtista":"5",
+        "nombreArtista":"Kendo Kaponi",
+        "urlArtista":"(5)"
+    },
+    {
+        "idArtista":"6",
+        "nombreArtista":"Javiielo",
+        "urlArtista":"(6)"
+    },
+    {
+        "idArtista":"7",
+        "nombreArtista":"Jeeiph",
+        "urlArtista":"(7)"
+    },
+    {
+        "idArtista":"8",
+        "nombreArtista":"Adso Alejandro",
+        "urlArtista":"(8)"
+    },
+    {
+        "idArtista":"9",
+        "nombreArtista":"Zaramay",
+        "urlArtista":"(9)"
+    },
+    {
+        "idArtista":"10",
+        "nombreArtista":" Ghetto Kids",
+        "urlArtista":"(10)"
+    },
+    {
+        "idArtista":"11",
+        "nombreArtista":"Blessd",
+        "urlArtista":"(11)"
+    },
+    {
+        "idArtista":"12",
+        "nombreArtista":"Santiago Saez",
+        "urlArtista":"(12)"
+    }
         ]
     },
     {
@@ -71,9 +671,144 @@
         "cancionesGenero":
         [
             {
-                "idArtista":"",
-                "idCancionEjemplo":"",
-                "urlArtista":""
+                "idArtista":"0",
+                "nombreArtista":"Eslabon Armando",
+                "urlArtista":"(0)"
+            },
+            {
+                "idArtista":"1",
+                "nombreArtista":"Lenin Ramirez",
+                "urlArtista":"(1)"
+            },
+            {
+                "idArtista":"2",
+                "nombreArtista":"Banda Los Recoditos",
+                "urlArtista":"(2)"
+            },
+            {
+                "idArtista":"3",
+                "nombreArtista":"Los Piebes",
+                "urlArtista":"(3)"
+            },
+            {
+                "idArtista":"4",
+                "nombreArtista":"Los Caaminantes",
+                "urlArtista":"(4)"
+            },
+            {
+                "idArtista":"5",
+                "nombreArtista":"Gerardo Ortiz",
+                "urlArtista":"(5)"
+            },
+            {
+                "idArtista":"6",
+                "nombreArtista":"T3r Elemento",
+                "urlArtista":"(6)"
+            },
+            {
+                "idArtista":"7",
+                "nombreArtista":"Pepe Aguilar",
+                "urlArtista":"(7)"
+            },
+            {
+                "idArtista":"8",
+                "nombreArtista":"Ulices Chaidez",
+                "urlArtista":"(8)"
+            },
+            {
+                "idArtista":"9",
+                "nombreArtista":"Banda Los Sebastianes",
+                "urlArtista":"(9)"
+            },
+            {
+                "idArtista":"10",
+                "nombreArtista":"El Limon",
+                "urlArtista":"(10)"
+            },
+            {
+                "idArtista":"11",
+                "nombreArtista":"Ariel Camacho",
+                "urlArtista":"(11)"
+            },
+            {
+                "idArtista":"12",
+                "nombreArtista":"Angela Aguilar",
+                "urlArtista":"(12)"
+            },
+            {
+                "idArtista":"13",
+                "nombreArtista":"Luis R",
+                "urlArtista":"(13)"
+            },
+            {
+                "idArtista":"14",
+                "nombreArtista":"Virlan Garcia",
+                "urlArtista":"(14)"
+            },
+            {
+                "idArtista":"15",
+                "nombreArtista":"Natalia Jimenez",
+                "urlArtista":"(15)"
+            },
+            {
+                "idArtista":"16",
+                "nombreArtista":"Revolver Cannabis",
+                "urlArtista":"(16)"
+            },
+            {
+                "idArtista":"17",
+                "nombreArtista":"Grupo Bryndis",
+                "urlArtista":"(17)"
+            },
+            {
+                "idArtista":"18",
+                "nombreArtista":"Joss Favela",
+                "urlArtista":"(18)"
+            },
+            {
+                "idArtista":"19",
+                "nombreArtista":"Akwid",
+                "urlArtista":"(19)"
+            },
+            {
+                "idArtista":"20",
+                "nombreArtista":"Chayin Rubio",
+                "urlArtista":"(20)"
+            },
+            {
+                "idArtista":"21",
+                "nombreArtista":"Traviezoz",
+                "urlArtista":"(21)"
+            },
+            {
+                "idArtista":"22",
+                "nombreArtista":"El Bebeto",
+                "urlArtista":"(22)"
+            },
+            {
+                "idArtista":"23",
+                "nombreArtista":"Ladron",
+                "urlArtista":"(23)"
+            },
+            {
+                "idArtista":"24",
+                "nombreArtista":"Anna Barbara",
+                "urlArtista":"(24)"
+            },
+            {
+                "idArtista":"25",
+                "nombreArtista":"Sergio Vega",
+                "urlArtista":"(25)"
+            },
+            {
+                "idArtista":"26",
+                "nombreArtista":"Pedro Fernandez",
+                "urlArtista":"(26)"
+            },
+            {
+                "idArtista":"27",
+                "nombreArtista":"La Mafia",
+                "urlArtista":"(27)"
             }
         ]
     },
@@ -85,7 +820,7 @@
         [
             {
                 "idArtista":"",
-                "idCancionEjemplo":"",
+                "nombreArtista":"",
                 "urlArtista":""
             }
         ]
@@ -98,7 +833,7 @@
         [
             {
                 "idArtista":"",
-                "idCancionEjemplo":"",
+                "nombreArtista":"",
                 "urlArtista":""
             }
         ]
@@ -111,7 +846,7 @@
         [
             {
                 "idArtista":"",
-                "idCancionEjemplo":"",
+                "nombreArtista":"",
                 "urlArtista":""
             }
         ]
@@ -124,8 +859,8 @@
         [
             {
                 "idArtista":"",
-                "idCancionEjemplo":"",
-                "urlArtista":""
+                "nombreArtista":"",
+                "urlArtista":"()"
             }
         ]
     },
@@ -137,7 +872,7 @@
         [
             {
                 "idArtista":"",
-                "idCancionEjemplo":"",
+                "nombreArtista":"",
                 "urlArtista":""
             }
         ]
