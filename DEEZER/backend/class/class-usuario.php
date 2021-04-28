@@ -78,7 +78,26 @@ class Usuario extends Persona{
         $archivo = fopen('../data/usuarios.json','w');
         fwrite($archivo, json_encode($usuarios));
         fclose($archivo);   
-    }    
+    }  
+    
+    public function actualizar($id){
+        $contenidoArchivo = file_get_contents('../data/usuarios.json'); 
+        $usuarios = json_decode($contenidoArchivo,true);
+        $usuario= array(
+            "nombre" =>$this->nombre,
+            "apellido" =>$this->apellido,
+            "correo" =>$this->correo,
+            "password" =>$this->password,
+            "fechaNacimiento" =>$this->fechaNacimiento,
+            "identidad" =>$this->identidad,
+            "rol" =>$this->rol,
+            "playlist" =>$this->playlist
+        );
+        $usuarios[$id]= $usuario;
+        $archivo = fopen('../data/usuarios.json','w');
+        fwrite($archivo, json_encode($usuarios));
+        fclose($archivo); 
+    }
 
     
 }

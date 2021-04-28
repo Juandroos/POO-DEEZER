@@ -32,9 +32,18 @@
             
             break;
         case 'PUT':
-            /* $_PUT =json_decode(file_get_contents('php://input'),true);
-            $usuario = new Usuario($_PUT["nombre"],$_PUT["apellido"],$_PUT["password"],$_PUT["correo"]);
-            $usuario->actualizarUsuario($_GET['id']); */
+            $_PUT =json_decode(file_get_contents('php://input'),true);
+            $usuario = new Usuario(
+                $_PUT["nombre"],
+                $_PUT["apellido"],
+                $_PUT["correo"],
+                $_PUT["password"],
+                $_PUT["fechaNacimiento"],
+                $_PUT["identidad"],
+                $_PUT["rol"],
+                $_PUT["playlist"],);
+            $usuario->actualizar($_GET['id']); 
+
             
             break;
         case 'DELETE':

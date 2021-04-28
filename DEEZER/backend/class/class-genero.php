@@ -103,5 +103,14 @@ class Genero{
         $contenidoArchivo = file_get_contents('../data/generos.json');
         echo $contenidoArchivo;
     }
+
+    public static function obtenerGenero($id)
+    {
+        $contenidoArchivo = file_get_contents('../data/generos.json');
+        $genero = json_decode($contenidoArchivo,true);
+        echo json_encode($genero[$id]);
+
+        
+    }
 }
 ?>

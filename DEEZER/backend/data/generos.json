@@ -1,6 +1,7 @@
 [
     {
         "idGenero":"0",
+        "genero":"pop",
         "nombreGenero":"POP",
         "urlGenero":"pop.png",
         "cancionesGenero":
@@ -149,6 +150,7 @@
     },
     {
         "idGenero":"1",
+        "genero":"latino",
         "nombreGenero":"LATINO",
         "urlGenero":"latino.png",
         "cancionesGenero":
@@ -297,6 +299,7 @@
     },
     {
         "idGenero":"2",
+        "genero":"rap",
         "nombreGenero":"RAP / HIP HOP",
         "urlGenero":"rap.png",
         "cancionesGenero":
@@ -445,6 +448,7 @@
     },
     {
         "idGenero":"3",
+        "genero":"rock",
         "nombreGenero":"ROCK",
         "urlGenero":"rock.png",
         "cancionesGenero":
@@ -593,6 +597,7 @@
     },
     {
         "idGenero":"4",
+        "genero":"reggaeton",
         "nombreGenero":"REGGAETÓN",
         "urlGenero":"pop.png",
         "cancionesGenero":
@@ -666,6 +671,7 @@
     },
     {
         "idGenero":"5",
+        "genero":"mexicana",
         "nombreGenero":"MÚSICA MEXICANA",
         "urlGenero":"musicaMexico.png",
         "cancionesGenero":
@@ -814,66 +820,597 @@
     },
     {
         "idGenero":"6",
+        "genero":"alternativo",
         "nombreGenero":"ALTERNATIVO",
         "urlGenero":"alternativo.png",
         "cancionesGenero":
         [
             {
-                "idArtista":"",
-                "nombreArtista":"",
-                "urlArtista":""
+                "idArtista":"0",
+                "nombreArtista":"Twenty One Pilots",
+                "urlArtista":"(0)"
+            },
+            {
+                "idArtista":"1",
+                "nombreArtista":"Imagine Dragons",
+                "urlArtista":"(1)"
+            },
+            {
+                "idArtista":"2",
+                "nombreArtista":"Billie Ellish",
+                "urlArtista":"(2)"
+            },
+            {
+                "idArtista":"3",
+                "nombreArtista":"Linkin Park",
+                "urlArtista":"(3)"
+            },
+            {
+                "idArtista":"4",
+                "nombreArtista":"The Neighbourhood",
+                "urlArtista":"(4)"
+            },
+            {
+                "idArtista":"5",
+                "nombreArtista":"Lana Del Rey",
+                "urlArtista":"(5)"
+            },
+            {
+                "idArtista":"6",
+                "nombreArtista":"Artic Monkey",
+                "urlArtista":"(6)"
+            },
+            {
+                "idArtista":"7",
+                "nombreArtista":"League of Leguends",
+                "urlArtista":"(7)"
+            },
+            {
+                "idArtista":"8",
+                "nombreArtista":"Foster the People",
+                "urlArtista":"(8)"
+            },
+            {
+                "idArtista":"9",
+                "nombreArtista":"AURORA",
+                "urlArtista":"(9)"
+            },
+            {
+                "idArtista":"10",
+                "nombreArtista":"Lewis Capaldi",
+                "urlArtista":"(10)"
+            },
+            {
+                "idArtista":"11",
+                "nombreArtista":"The Strokes",
+                "urlArtista":"(11)"
+            },
+            {
+                "idArtista":"12",
+                "nombreArtista":"CIgarettes After Sex",
+                "urlArtista":"(12)"
+            },
+            {
+                "idArtista":"13",
+                "nombreArtista":"Melanie Martinez",
+                "urlArtista":"(13)"
+            },
+            {
+                "idArtista":"14",
+                "nombreArtista":"CUCO",
+                "urlArtista":"(14)"
+            },
+            {
+                "idArtista":"15",
+                "nombreArtista":"Two Feet",
+                "urlArtista":"(15)"
+            },
+            {
+                "idArtista":"16",
+                "nombreArtista":"Green Day",
+                "urlArtista":"(16)"
+            },
+            {
+                "idArtista":"17",
+                "nombreArtista":"Panic! At the Disco",
+                "urlArtista":"(17)"
+            },
+            {
+                "idArtista":"18",
+                "nombreArtista":"Tame Impala",
+                "urlArtista":"(18)"
+            },
+            {
+                "idArtista":"19",
+                "nombreArtista":"Hasley",
+                "urlArtista":"(19)"
+            },
+            {
+                "idArtista":"20",
+                "nombreArtista":"Hozier",
+                "urlArtista":"(20)"
+            },
+            {
+                "idArtista":"21",
+                "nombreArtista":"Mother Mother",
+                "urlArtista":"(21)"
+            },
+            {
+                "idArtista":"22",
+                "nombreArtista":"Radiohead",
+                "urlArtista":"(22)"
+            },
+            {
+                "idArtista":"23",
+                "nombreArtista":"Red Hot Chili Peppers",
+                "urlArtista":"(23)"
+            },
+            {
+                "idArtista":"24",
+                "nombreArtista":"Gotye",
+                "urlArtista":"(24)"
+            },
+            {
+                "idArtista":"25",
+                "nombreArtista":"Capital Cities",
+                "urlArtista":"(25)"
+            },
+            {
+                "idArtista":"26",
+                "nombreArtista":"Lorde",
+                "urlArtista":"(26)"
+            },
+            {
+                "idArtista":"27",
+                "nombreArtista":"The War On Drugs",
+                "urlArtista":"(27)"
             }
         ]
     },
     {
         "idGenero":"7",
-        "nombreGenero":"MÚSICA MEXICANA",
-        "urlGenero":"musicaMexico.png",
+        "genero":"ryb",
+        "nombreGenero":"R&B",
+        "urlGenero":"ryb.png",
         "cancionesGenero":
         [
             {
-                "idArtista":"",
-                "nombreArtista":"",
-                "urlArtista":""
+                "idArtista":"0",
+                "nombreArtista":"The Weekend",
+                "urlArtista":"(0)"
+            },
+            {
+                "idArtista":"1",
+                "nombreArtista":"Doja Cat",
+                "urlArtista":"(1)"
+            },
+            {
+                "idArtista":"2",
+                "nombreArtista":"Joji",
+                "urlArtista":"(2)"
+            },
+            {
+                "idArtista":"3",
+                "nombreArtista":"Giveon",
+                "urlArtista":"(3)"
+            },
+            {
+                "idArtista":"4",
+                "nombreArtista":"Chris Brown",
+                "urlArtista":"(4)"
+            },
+            {
+                "idArtista":"5",
+                "nombreArtista":"Ghildish Gambino",
+                "urlArtista":"(5)"
+            },
+            {
+                "idArtista":"6",
+                "nombreArtista":"blackbear",
+                "urlArtista":"(6)"
+            },
+            {
+                "idArtista":"7",
+                "nombreArtista":"John Legend",
+                "urlArtista":"(7)"
+            },
+            {
+                "idArtista":"8",
+                "nombreArtista":"Aya Nakamua",
+                "urlArtista":"(8)"
+            },
+            {
+                "idArtista":"9",
+                "nombreArtista":"PARTYNEXTDOOR",
+                "urlArtista":"(9)"
+            },
+            {
+                "idArtista":"10",
+                "nombreArtista":"Ali Gatie",
+                "urlArtista":"(10)"
+            },
+            {
+                "idArtista":"11",
+                "nombreArtista":"Ne-Yo",
+                "urlArtista":"(11)"
+            },
+            {
+                "idArtista":"12",
+                "nombreArtista":"Ray Charles",
+                "urlArtista":"(12)"
+            },
+            {
+                "idArtista":"13",
+                "nombreArtista":"Alicia Keys",
+                "urlArtista":"(13)"
+            },
+            {
+                "idArtista":"14",
+                "nombreArtista":"Earth, Wind & Fire",
+                "urlArtista":"(14)"
+            },
+            {
+                "idArtista":"15",
+                "nombreArtista":"Stevie Wonder",
+                "urlArtista":"(15)"
+            },
+            {
+                "idArtista":"16",
+                "nombreArtista":"Whitney Houston",
+                "urlArtista":"(16)"
+            },
+            {
+                "idArtista":"17",
+                "nombreArtista":"Kool & The Gang",
+                "urlArtista":"(17)"
+            },
+            {
+                "idArtista":"18",
+                "nombreArtista":"Usher",
+                "urlArtista":"(18)"
+            },
+            {
+                "idArtista":"19",
+                "nombreArtista":"Brennan Savage",
+                "urlArtista":"(19)"
+            },
+            {
+                "idArtista":"20",
+                "nombreArtista":"James Brown",
+                "urlArtista":"(20)"
+            },
+            {
+                "idArtista":"21",
+                "nombreArtista":"Jackson 5",
+                "urlArtista":"(21)"
+            },
+            {
+                "idArtista":"22",
+                "nombreArtista":"Summer Walker",
+                "urlArtista":"(22)"
+            },
+            {
+                "idArtista":"23",
+                "nombreArtista":"H.E.R.",
+                "urlArtista":"(23)"
+            },
+            {
+                "idArtista":"24",
+                "nombreArtista":"Masego",
+                "urlArtista":"(24)"
+            },
+            {
+                "idArtista":"25",
+                "nombreArtista":"R. Kelly",
+                "urlArtista":"(25)"
+            },
+            {
+                "idArtista":"26",
+                "nombreArtista":"Sade",
+                "urlArtista":"(26)"
+            },
+            {
+                "idArtista":"27",
+                "nombreArtista":"Omarion",
+                "urlArtista":"(27)"
             }
         ]
     },
     {
         "idGenero":"8",
-        "nombreGenero":"R&G",
-        "urlGenero":"ryg.png",
-        "cancionesGenero":
-        [
-            {
-                "idArtista":"",
-                "nombreArtista":"",
-                "urlArtista":""
-            }
-        ]
-    },
-    {
-        "idGenero":"9",
+        "genero":"dance",
         "nombreGenero":"DANCE",
         "urlGenero":"dance.png",
         "cancionesGenero":
         [
             {
-                "idArtista":"",
-                "nombreArtista":"",
-                "urlArtista":"()"
+                "idArtista":"0",
+                "nombreArtista":"Calvin Harris",
+                "urlArtista":"(0)"
+            },
+            {
+                "idArtista":"1",
+                "nombreArtista":"Avicii",
+                "urlArtista":"(1)"
+            },
+            {
+                "idArtista":"2",
+                "nombreArtista":"Kygo",
+                "urlArtista":"(2)"
+            },
+            {
+                "idArtista":"3",
+                "nombreArtista":"Skrillex",
+                "urlArtista":"(3)"
+            },
+            {
+                "idArtista":"4",
+                "nombreArtista":"David Guetta",
+                "urlArtista":"(4)"
+            },
+            {
+                "idArtista":"5",
+                "nombreArtista":"Daft Punk",
+                "urlArtista":"(5)"
+            },
+            {
+                "idArtista":"6",
+                "nombreArtista":"MArtin Garrix",
+                "urlArtista":"(6)"
+            },
+            {
+                "idArtista":"7",
+                "nombreArtista":"DJ Snake",
+                "urlArtista":"(7)"
+            },
+            {
+                "idArtista":"8",
+                "nombreArtista":"The Chainsmokers",
+                "urlArtista":"(8)"
+            },
+            {
+                "idArtista":"9",
+                "nombreArtista":"Tiesto",
+                "urlArtista":"(9)"
+            },
+            {
+                "idArtista":"10",
+                "nombreArtista":"MArshmello",
+                "urlArtista":"(10)"
+            },
+            {
+                "idArtista":"11",
+                "nombreArtista":"Deorro",
+                "urlArtista":"(11)"
+            },
+            {
+                "idArtista":"12",
+                "nombreArtista":"Clean Bandit",
+                "urlArtista":"(12)"
+            },
+            {
+                "idArtista":"13",
+                "nombreArtista":"ZEDD",
+                "urlArtista":"(13)"
+            },
+            {
+                "idArtista":"14",
+                "nombreArtista":"Regard",
+                "urlArtista":"(14)"
+            },
+            {
+                "idArtista":"15",
+                "nombreArtista":"Alok",
+                "urlArtista":"(15)"
+            },
+            {
+                "idArtista":"16",
+                "nombreArtista":"Robin Schulz",
+                "urlArtista":"(16)"
+            },
+            {
+                "idArtista":"17",
+                "nombreArtista":"Diplo",
+                "urlArtista":"(17)"
+            },
+            {
+                "idArtista":"18",
+                "nombreArtista":"Meduza",
+                "urlArtista":"(18)"
+            },
+            {
+                "idArtista":"19",
+                "nombreArtista":"SAINt JHN",
+                "urlArtista":"(19)"
+            },
+            {
+                "idArtista":"20",
+                "nombreArtista":"Steve Aoki",
+                "urlArtista":"(20)"
+            },
+            {
+                "idArtista":"21",
+                "nombreArtista":"Jonas Blue",
+                "urlArtista":"(21)"
+            },
+            {
+                "idArtista":"22",
+                "nombreArtista":"Timmies",
+                "urlArtista":"(22)"
+            },
+            {
+                "idArtista":"23",
+                "nombreArtista":"Galantis",
+                "urlArtista":"(23)"
+            },
+            {
+                "idArtista":"24",
+                "nombreArtista":"Charly Black",
+                "urlArtista":"(24)"
+            },
+            {
+                "idArtista":"25",
+                "nombreArtista":"Bastille",
+                "urlArtista":"(25)"
+            },
+            {
+                "idArtista":"26",
+                "nombreArtista":"AAron Smith",
+                "urlArtista":"(26)"
+            },
+            {
+                "idArtista":"27",
+                "nombreArtista":"Axwell Ingroso",
+                "urlArtista":"(27)"
             }
         ]
     },
     {
-        "idGenero":"10",
+        "idGenero":"9",
+        "genero":"electro",
         "nombreGenero":"ELECTRO",
         "urlGenero":"electro.png",
         "cancionesGenero":
         [
             {
-                "idArtista":"",
-                "nombreArtista":"",
-                "urlArtista":""
+                "idArtista":"0",
+                "nombreArtista":"League of Legends",
+                "urlArtista":"(0)"
+            },
+            {
+                "idArtista":"1",
+                "nombreArtista":"Alan Walker ",
+                "urlArtista":"(1)"
+            },
+            {
+                "idArtista":"2",
+                "nombreArtista":"Major Lazer",
+                "urlArtista":"(2)"
+            },
+            {
+                "idArtista":"3",
+                "nombreArtista":"Kina",
+                "urlArtista":"(3)"
+            },
+            {
+                "idArtista":"4",
+                "nombreArtista":"Dimitri Vegas & Like Mike",
+                "urlArtista":"(4)"
+            },
+            {
+                "idArtista":"5",
+                "nombreArtista":"Jack U",
+                "urlArtista":"(5)"
+            },
+            {
+                "idArtista":"6",
+                "nombreArtista":"Madeon",
+                "urlArtista":"(6)"
+            },
+            {
+                "idArtista":"7",
+                "nombreArtista":"Disclosure",
+                "urlArtista":"(7)"
+            },
+            {
+                "idArtista":"8",
+                "nombreArtista":"Breakbot",
+                "urlArtista":"(8)"
+            },
+            {
+                "idArtista":"9",
+                "nombreArtista":"Ember Island",
+                "urlArtista":"(9)"
+            },
+            {
+                "idArtista":"10",
+                "nombreArtista":"Hippie Sabotage",
+                "urlArtista":"(10)"
+            },
+            {
+                "idArtista":"11",
+                "nombreArtista":"Grimes",
+                "urlArtista":"(11)"
+            },
+            {
+                "idArtista":"12",
+                "nombreArtista":"K-391",
+                "urlArtista":"(12)"
+            },
+            {
+                "idArtista":"13",
+                "nombreArtista":"Shouse",
+                "urlArtista":"(13)"
+            },
+            {
+                "idArtista":"14",
+                "nombreArtista":"Jungle",
+                "urlArtista":"(14)"
+            },
+            {
+                "idArtista":"15",
+                "nombreArtista":"Zomboy",
+                "urlArtista":"(15)"
+            },
+            {
+                "idArtista":"16",
+                "nombreArtista":"Royal & the Serpent",
+                "urlArtista":"(16)"
+            },
+            {
+                "idArtista":"17",
+                "nombreArtista":"Petit Biscuit",
+                "urlArtista":"(17)"
+            },
+            {
+                "idArtista":"18",
+                "nombreArtista":"Vicetone",
+                "urlArtista":"(18)"
+            },
+            {
+                "idArtista":"19",
+                "nombreArtista":"Ofencah",
+                "urlArtista":"(19)"
+            },
+            {
+                "idArtista":"20",
+                "nombreArtista":"Caravan Palace",
+                "urlArtista":"(20)"
+            },
+            {
+                "idArtista":"21",
+                "nombreArtista":"Cartoon",
+                "urlArtista":"(21)"
+            },
+            {
+                "idArtista":"22",
+                "nombreArtista":"Porter Robinson",
+                "urlArtista":"(22)"
+            },
+            {
+                "idArtista":"23",
+                "nombreArtista":"Ehrling",
+                "urlArtista":"(23)"
+            },
+            {
+                "idArtista":"24",
+                "nombreArtista":"Leat'eq",
+                "urlArtista":"(24)"
+            },
+            {
+                "idArtista":"25",
+                "nombreArtista":"Klaas",
+                "urlArtista":"(25)"
+            },
+            {
+                "idArtista":"26",
+                "nombreArtista":"momoland",
+                "urlArtista":"(26)"
+            },
+            {
+                "idArtista":"27",
+                "nombreArtista":"Owl City",
+                "urlArtista":"(27)"
             }
         ]
     }
