@@ -11,6 +11,48 @@
 				{
 					"name": "guardar",
 					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/DEEZER/backend/api/usuarios.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"DEEZER",
+								"backend",
+								"api",
+								"usuarios.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener Usuarios",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/DEEZER/backend/api/usuarios.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"DEEZER",
+								"backend",
+								"api",
+								"usuarios.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener Usuario",
+					"request": {
 						"method": "GET",
 						"header": [],
 						"url": {
@@ -50,6 +92,89 @@
 								"backend",
 								"api",
 								"generos.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener Genero",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/DEEZER/backend/api/generos.php?id=0",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"DEEZER",
+								"backend",
+								"api",
+								"generos.php"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PLAYLIST",
+			"item": [
+				{
+					"name": "Obtener Playlists",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/DEEZER/backend/api/generos.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"DEEZER",
+								"backend",
+								"api",
+								"generos.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Guardar Playlists",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n   {\r\n        \"idPlaylist\": \"\",\r\n        \"nombrePlaylist\": \"\",\r\n        \"tipoPlaylist\": 0,\r\n        \"sencillos\": [\r\n            {\r\n                \"idGenero\": \"\",\r\n                \"idCancion\": \"\",\r\n                \"nombreArtista\": \"\",\r\n                \"urlArtista\": \"\"\r\n            }\r\n        ],\r\n        \"albums\": [\r\n            {\r\n                \"idGenero\": \"\",\r\n                \"idAlbum\": \"\",\r\n                \"nombreArtista\": \"\",\r\n                \"descripcion\": \"\",\r\n                \"urlArtista\": \"\",\r\n                \"cancionesAlbum\": \"\"\r\n            }\r\n        ]\r\n    }\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/DEEZER/backend/api/playlists.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"DEEZER",
+								"backend",
+								"api",
+								"playlists.php"
 							]
 						}
 					},

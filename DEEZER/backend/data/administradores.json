@@ -1,0 +1,94 @@
+[
+    {
+        "id": 0,
+        "nombre": "Juan",
+        "apellido": "Hernandez",
+        "correo": "juan1@gmail.com",
+        "password": "2wWasdfghj",
+        "fechaNacimiento": "12-12-2000",
+        "identidad": "Masculino",
+        "rol": 1,
+        "album": []
+    },
+    {
+        "id": 1,
+        "nombre": "Juan",
+        "apellido": "Carcamo",
+        "correo": "jua@hotmail.com",
+        "password": "Ss3djfkg;",
+        "fechaNacimiento": "2001-12-13",
+        "identidad": "Identidad",
+        "rol": 1,
+        "album": []
+    },
+    {
+        "id": 2,
+        "nombre": "Juan",
+        "apellido": "Carcamo",
+        "correo": "jua@hotmail.com",
+        "password": "Sd23kdmvrf",
+        "fechaNacimiento": "2001-12-13",
+        "identidad": "Hombre",
+        "rol": 1,
+        "album": []
+    },
+    {
+        "id": 3,
+        "nombre": "Juan",
+        "apellido": "Carcamo",
+        "correo": "jua@hotmail.com",
+        "password": "aS2dfghj",
+        "fechaNacimiento": "2001-12-31",
+        "identidad": "Hombre",
+        "rol": 1,
+        "album": []
+    },
+    {
+        "id": 4,
+        "nombre": "Eduardo",
+        "apellido": "Hernandez",
+        "correo": "noe@gmail.com",
+        "password": "Cg3asdfgh",
+        "fechaNacimiento": "2001-12-06",
+        "identidad": "Hombre",
+        "rol": 1,
+        "album": []
+    },
+    {
+        "id": 5,
+        "nombre": "Kevin",
+        "apellido": "Cruz",
+        "correo": "kevin@gmail.com",
+        "password": "cg3Skfjfh",
+        "fechaNacimiento": "2001-12-22",
+        "identidad": "Mujer",
+        "rol": 1,
+        "album": []
+    },
+    {
+        "id": 6,
+        "nombre": "Kevin",
+        "apellido": "Cruz",
+        "correo": "kevin@gmail.com",
+        "password": "23Fghksl",
+        "fechaNacimiento": "2001-12-18",
+        "identidad": "Hombre",
+        "rol": 1,
+        "album": [
+            0
+        ]
+    },
+    {
+        "id": 6,
+        "nombre": "Kevin",
+        "apellido": "Cruz",
+        "correo": "kevin@gmail.com",
+        "password": "23Fghksl",
+        "fechaNacimiento": "2001-12-18",
+        "identidad": "Hombre",
+        "rol": 1,
+        "album": [
+            0
+        ]
+    }
+]

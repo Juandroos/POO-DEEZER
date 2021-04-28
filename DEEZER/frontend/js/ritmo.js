@@ -5,6 +5,8 @@ var usuarioSeleccionado ='';
 var contador= 1;
 var informacionGenero =[];
 var informacionArtista=[];
+var enviarPlaylist =[];
+var enviarArtista=[];
 var playlists=[];
 var usuarioSeleccionado='';
 
@@ -66,7 +68,8 @@ function obtenerGenero(id) {
 
 function llenarGenero() {
     console.log(genero);
-    let lista = genero.cancionesGenero;
+    var generoActual = genero;
+    var lista = genero.cancionesGenero;
     console.log(lista);
     document.getElementById('imgGeneros').innerHTML='';
     lista.forEach(list => {
@@ -109,24 +112,72 @@ function enviarSeleccionArtistas(idge, idAr, ) {
     switch (contador) {
     case 1:
         document.getElementById('btnSeleccion').innerHTML = "ELIGE 2 ARTISTAS MAS";
+        enviarArtista[0]= {
+            "idGenero":generoActual.idGenero,
+            "idCancion":generoActual.cancionesGenero[idAr].idCancion,
+            "nombreCancion":generoActual.cancionesGenero[idAr].nombreCancion,
+            "nombreArtista":generoActual.cancionesGenero[idAr].nombreArtista,
+            "urlArtista":generoActual.cancionesGenero[idAr].urlArtista,
+        }
         contador=2;
         break;
     case 2: 
         document.getElementById('btnSeleccion').innerHTML = "ELIGE 1 ARTISTAS MAS";
         contador=3;
+        enviarArtista[1]={
+            "idGenero":generoActual.idGenero,
+            "idCancion":generoActual.cancionesGenero[idAr].idCancion,
+            "nombreCancion":generoActual.cancionesGenero[idAr].nombreCancion,
+            "nombreArtista":generoActual.cancionesGenero[idAr].nombreArtista,
+            "urlArtista":generoActual.cancionesGenero[idAr].urlArtista,
+        }
         break;
     case 3:
-        document.getElementById('btnSeleccion').innerHTML = "CONTINUEMOS";  
+        document.getElementById('btnSeleccion').innerHTML = "CONTINUEMOS"; 
+        enviarArtista[2]={
+            "idGenero":generoActual.idGenero,
+            "idCancion":generoActual.cancionesGenero[idAr].idCancion,
+            "nombreCancion":generoActual.cancionesGenero[idAr].nombreCancion,
+            "nombreArtista":generoActual.cancionesGenero[idAr].nombreArtista,
+            "urlArtista":generoActual.cancionesGenero[idAr].urlArtista,
+        }
         document.getElementById('btnSeleccion').disabled = true;
         document.getElementById('btnSeleccion').classList.add('btn-flotante2');
-        guardarInfoUsuario(informacionGenero,informacionArtista);
+        guardarPlaylist();
         break; 
     default:
         console.log('default');
-    }    
+    }     
 }
 
-/* BLOQUE USUARIO */
+function guardarPlaylist() {
+    enviarPlaylist[0]={
+        "idPlaylist":0,
+        "tipoPlaylist":"1",
+        "nombrePlaylist":Deezer,
+        "sencillos":enviarArtista,
+    };
+    axios({
+        method:'POST',
+        url:urlPlaylist,
+        responseType:'json',
+        data:enviarPlaylist
+    }).then(res=>{
+        
+    }).catch(error=>{
+        console.error(error);
+    });
+    
+}
+
+/* BLOQUE USUARIO
+enviarGenero[0]={
+            "idPlaylist":0,
+            "tipoPlaylist":"1",
+            "nombrePlaylist":Deezer,
+            "sencillos":"",
+        };
+*/
 
 
 /* OBTENTER PLAYLIST*/

@@ -1,8 +1,8 @@
 <?php
 class Playlist{
     private $idPlaylist;
-    private $nombrePlaylist;
     private $tipoPlaylist;
+    private $nombrePlaylist;
     private $sencillos;
     private $albums;
 
@@ -15,8 +15,8 @@ class Playlist{
     )
     {
         $this->idPlaylist =$idPlaylist;
-        $this->nombrePlaylist =$nombrePlaylist;
         $this->tipoPlaylist =$tipoPlaylist;
+        $this->nombrePlaylist =$nombrePlaylist;
         $this->sencillos =$sencillos;
         $this->albums =$albums;
     }
@@ -62,25 +62,6 @@ class Playlist{
     }
 
     /**
-     * Get the value of sencillos
-     */ 
-    public function getSencillos()
-    {
-        return $this->sencillos;
-    }
-
-    /**
-     * Set the value of sencillos
-     *
-     * @return  self
-     */ 
-    public function setSencillos($sencillos)
-    {
-        $this->sencillos = $sencillos;
-
-        return $this;
-    }
-    /**
      * Get the value of tipoPlaylist
      */ 
     public function getTipoPlaylist()
@@ -99,6 +80,27 @@ class Playlist{
 
         return $this;
     }
+
+    /**
+     * Get the value of sencillos
+     */ 
+    public function getSencillos()
+    {
+        return $this->sencillos;
+    }
+
+    /**
+     * Set the value of sencillos
+     *
+     * @return  self
+     */ 
+    public function setSencillos($sencillos)
+    {
+        $this->sencillos = $sencillos;
+
+        return $this;
+    }
+
     /**
      * Get the value of albums
      */ 
@@ -132,12 +134,18 @@ class Playlist{
     } 
     public function guardarPlaylist()
     {
-        
+        $contenidoArchivo = file_get_contents('../data/playlists.json'); 
+        $playlists = json_decode($contenidoArchivo,true);
+        $playlists[]= array(
+            "idPlaylist"=>$this->idPlaylist,
+            "tipoPlaylist"=>$this->tipoPlaylist,
+            "nombrePlaylist"=>$this->nombrePlaylist,
+            "sencillos"=>$this->sencillos,
+            "albums"=>$this->albums
+        );
+        $archivo = fopen('../data/playlists.json','w');
+        fwrite($archivo, json_encode($playlists));
+        fclose($archivo);  
     }
-    
-
-    
-
-    
 }
 ?>

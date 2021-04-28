@@ -1,27 +1,26 @@
 [
     {
-        "idPlaylist":"",
-        "nombrePlaylist":"",
-        "tipoPlaylist":0,
-        "sencillos":
-        [
+        "idPlaylist": "",
+        "tipoPlaylist": "",
+        "nombrePlaylist": 0,
+        "sencillos": [
             {
-                "idGenero":"",
-                "idCancion":"",
-                "nombreArtista":"",
-                "urlArtista":""
+                "idGenero": "",
+                "idCancion": "",
+                "nombreCancion":"",
+                "nombreArtista": "",
+                "urlArtista": ""
             }
         ],
-        "albums":
-        [
+        "albums": [
             {
-                "idGenero":"",
-                "idAlbum":"",
-                "nombreArtista":"",
-                "descripcion":"",
-                "urlArtista":"",
-                "cancionesAlbum":""
-            }  
+                "idGenero": "",
+                "idAlbum": "",
+                "nombreArtista": "",
+                "descripcion": "",
+                "urlArtista": "",
+                "cancionesAlbum": ""
+            }
         ]
     }
 ]
