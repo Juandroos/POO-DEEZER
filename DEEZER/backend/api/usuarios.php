@@ -2,12 +2,12 @@
     //CREATE
     header("Content-Type: application/json");
     include_once("../class/class-usuario.php");
-    sleep(5);
     switch ($_SERVER['REQUEST_METHOD']) {
         case 'POST':
             echo 'Guardar usuario';
             $_POST =json_decode(file_get_contents('php://input'),true);
             $usuarios = new Usuario(
+                $_POST["id"],
                 $_POST["nombre"],
                 $_POST["apellido"],
                 $_POST["correo"],
@@ -22,18 +22,19 @@
             echo json_encode( $resultado);
             break;
         case 'GET':
-            /* if (isset($_GET['id'])) {
+            if (isset($_GET['id'])) {
                 Usuario::obtenerUsuario($_GET['id']);
             }
             else {
                 Usuario::obtenerUsuarios();
-            } */
+            } 
             
             
             break;
         case 'PUT':
             $_PUT =json_decode(file_get_contents('php://input'),true);
             $usuario = new Usuario(
+                $_PUT["id"],
                 $_PUT["nombre"],
                 $_PUT["apellido"],
                 $_PUT["correo"],

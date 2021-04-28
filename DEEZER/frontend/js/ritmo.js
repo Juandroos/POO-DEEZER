@@ -5,7 +5,25 @@ var usuarioSeleccionado ='';
 var contador= 1;
 var informacionGenero =[];
 var informacionArtista=[];
-var usuarioSeleccionado=null;
+var playlists=[];
+var usuarioSeleccionado='';
+
+/* USUARIO */
+const urlUsuario = '../../DEEZER/backend/api/usuarios.php';
+var usuarioId = '';
+var infoU ='';
+var admonId ='';
+var usuarios= [];
+
+/* Playlist */
+const urlPlaylist = '../../DEEZER/backend/api/playlists.php';
+var playlistId = '';
+var playlists =[];
+var infoP ='';
+playlistSeleccionado = '';
+
+
+/* BLOQUE GENERO */
 
 function obtenerGeneros() {
     axios({
@@ -67,7 +85,6 @@ function llenarGenero() {
     });
 }
 
-
 function obtenerGeneroUnico(id) {
     axios({
         method:'GET',
@@ -81,6 +98,7 @@ function obtenerGeneroUnico(id) {
     });
 
 }
+
 function enviarSeleccionArtistas(idge, idAr, ) {
     informacionGenero[contador-1] = idge;
     informacionArtista[contador-1]= idAr;
@@ -108,22 +126,10 @@ function enviarSeleccionArtistas(idge, idAr, ) {
     }    
 }
 
-function guardarInfoUsuario(genero, artista) {
-    usuarioSeleccionado = indice;
-    axios({
-        method:'GET',
-        url:url+`?id=${indice}`,
-        responseType:'json'
-    }).then(res=>{
-    document.getElementById('nombre').value=res.data.nombre,
-    document.getElementById('apellido').value=res.data.apellido
-    document.getElementById('fecha').value=res.data.fechaNacimiento,
-    document.getElementById('pais').value=res.data.pais,
-    document.getElementById('btnGuardar').style.display='none',
-    document.getElementById('btnActualizar').style.display='inline'
-    
-    }).catch(error=>{
-        console.error(error);
-    });
-}
+/* BLOQUE USUARIO */
+
+
+/* OBTENTER PLAYLIST*/
+
+
 

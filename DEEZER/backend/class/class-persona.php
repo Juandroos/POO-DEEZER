@@ -1,6 +1,7 @@
 <?php
 
 abstract class Persona{
+    protected $id;
     protected $nombre;
     protected $apellido;
     protected $correo;
@@ -10,6 +11,7 @@ abstract class Persona{
     protected $rol;
     
     public function __construct(
+    $id,
     $nombre,
     $apellido,
     $correo,
@@ -18,6 +20,7 @@ abstract class Persona{
     $identidad,
     $rol)
     {
+        $this->id=$id;
         $this->nombre = $nombre;
         $this->apellido = $apellido;
         $this->correo = $correo;
@@ -165,6 +168,27 @@ abstract class Persona{
     public function setRol($rol)
     {
         $this->rol = $rol;
+
+        return $this;
+    }
+    
+
+    /**
+     * Get the value of id
+     */ 
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set the value of id
+     *
+     * @return  self
+     */ 
+    public function setId($id)
+    {
+        $this->id = $id;
 
         return $this;
     }

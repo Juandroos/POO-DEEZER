@@ -4,6 +4,7 @@ class Usuario extends Persona{
     private $playlist;
 
     public function __construct(
+        $id,    
         $nombre,
         $apellido,
         $correo,
@@ -14,6 +15,7 @@ class Usuario extends Persona{
         $playlist)
         {
             parent::__construct(
+            $id,
             $nombre,
             $apellido,
             $correo,
@@ -50,7 +52,8 @@ class Usuario extends Persona{
 
     public function __toString(){
         return 
-                $this->nombre.", "
+                 $this->id.", "
+                .$this->nombre.", "
                 .$this->apellido.", "
                 .$this->correo.", "
                 .$this->password.", "
@@ -66,6 +69,7 @@ class Usuario extends Persona{
         $contenidoArchivo = file_get_contents('../data/usuarios.json'); 
         $usuarios = json_decode($contenidoArchivo,true);
         $usuarios[]= array(
+            "id" =>$this->id,
             "nombre" =>$this->nombre,
             "apellido" =>$this->apellido,
             "correo" =>$this->correo,
@@ -84,6 +88,7 @@ class Usuario extends Persona{
         $contenidoArchivo = file_get_contents('../data/usuarios.json'); 
         $usuarios = json_decode($contenidoArchivo,true);
         $usuario= array(
+            "id" =>$this->id,
             "nombre" =>$this->nombre,
             "apellido" =>$this->apellido,
             "correo" =>$this->correo,
@@ -98,6 +103,19 @@ class Usuario extends Persona{
         fwrite($archivo, json_encode($usuarios));
         fclose($archivo); 
     }
+
+    public static function obtenerUsuarios()
+    {
+        $contenidoArchivo = file_get_contents('../data/usuarios.json');
+        echo $contenidoArchivo;
+    }
+
+    public static function obtenerUsuario($id)
+    {
+        $contenidoArchivo = file_get_contents('../data/usuarios.json');
+        $usuarios = json_decode($contenidoArchivo,true);
+        echo json_encode($usuarios[$id]);
+    } 
 
     
 }

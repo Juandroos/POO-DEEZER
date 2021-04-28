@@ -1,0 +1,27 @@
+[
+    {
+        "idPlaylist":"",
+        "nombrePlaylist":"",
+        "tipoPlaylist":0,
+        "sencillos":
+        [
+            {
+                "idGenero":"",
+                "idCancion":"",
+                "nombreArtista":"",
+                "urlArtista":""
+            }
+        ],
+        "albums":
+        [
+            {
+                "idGenero":"",
+                "idAlbum":"",
+                "nombreArtista":"",
+                "descripcion":"",
+                "urlArtista":"",
+                "cancionesAlbum":""
+            }  
+        ]
+    }
+]

@@ -1,6 +1,15 @@
 var usuarios =[];
 const url = '../../DEEZER/backend/api/usuarios.php';
 var usuarioId = '';
+var admonId ='';
+
+/* PLAYLIST */
+/* Playlist */
+const urlPlaylist = '../../DEEZER/backend/api/playlists.php';
+var playlistId = '';
+var playlists =[];
+var infoP ='';
+playlistSeleccionado = '';
 
 document.getElementById("nombre").addEventListener("keyup", nombreValidar);
 function nombreValidar() { 
@@ -49,12 +58,35 @@ function passwordValidar() {
 function verde(id) {document.getElementById(id).style.backgroundColor = "rgb(193, 255, 234)"}
 function rojo(id) {document.getElementById(id).style.backgroundColor = "rgb(255, 193, 193)"}
 
-function guardarUsuario(rol) {
+/* GUARDAR USUARIO */
+
+function obtenerUsuarios() {
+    axios({
+        method:'GET',
+        url:url,
+        responseType:'json'
+    }).then(res=>{
+        console.log(res.data);
+        this.usuarios = res.data;
+        usuarioId = usuarios.length;
+        console.log(usuarioId);
+    }).catch(error=>{
+        console.error(error);
+    });
+}
+obtenerUsuarios();
+
+function guardarUsuario() {
+    let rol= 2;
+    console.log(usuarioId);
     if (document.getElementById('nombre').value!='' &&document.getElementById('apellido').value!='' && document.getElementById('password').value!='' && document.getElementById('correo').value!=''){
     document.getElementById('btnGuardarAdministrador').disabled = true;
+    document.getElementById('btnGuardarUsuario').disabled = true;
+    document.getElementById('btnGuardarUsuario').innerHTML = 'Enviando...';
     document.getElementById('info').classList.add('info-text-verde');
     document.getElementById('info').innerHTML ="Registro Exitoso!";
     let usuario ={
+        id:usuarioId,
         nombre:document.getElementById('nombre').value,
         apellido:document.getElementById('apellido').value,
         correo:document.getElementById('correo').value,
@@ -62,7 +94,7 @@ function guardarUsuario(rol) {
         fechaNacimiento:document.getElementById('fechaNacimiento').value,
         identidad:document.getElementById('identidad').value,
         rol:rol,
-        playlist:'DEEZER'
+        playlist:[playlistId]
     };
     console.log(usuario);
     axios({
@@ -72,6 +104,7 @@ function guardarUsuario(rol) {
         data:usuario
     }).then(res=>{
         console.log(res);
+        window.location.assign("ritmo.html"); 
     }).catch(error=>{
         console.error(error);
     });
@@ -82,19 +115,33 @@ function guardarUsuario(rol) {
 }
 }
 
+/* PLAYLIST */
+function obtenerPlaylists() {
+    axios({
+        method:'GET',
+        url:urlPlaylist,
+        responseType:'json'
+    }).then(res=>{
+        console.log(res.data);
+        this.playlists = res.data;
+        playlistId = playlists.length;
+        console.log(playlistId);
+        playlistId = playlistId;
+    }).catch(error=>{
+        console.error(error);
+    });
+}
+obtenerPlaylists();
+
+
+/* GUARDAR ADMINISTRADOR */
 function guardarAdministrador() {
     console.log('PUTONNNN');
-    window.location = "https://nueva-pagina.com"
-    window.location.replace("index.html");
+    
     redireccionar();
-
-    console.log('id');
 }
 
-function redireccionar(){
-    console.log('PUTAAA');
-    window.location.replace("../index.html");
-}
+
 
 
 
